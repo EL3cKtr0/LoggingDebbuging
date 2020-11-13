@@ -1,0 +1,6 @@
+Creiamo una nuova repo per i logger e il debugging
+Python ha una libreria apposita per i logger chiamata appunto logger
+Possiamo stampare su console i nostri messaggi oppure se ne
+vogliamo tenere traccia è necessario utilizzare un file di log
+Usando gli attributi di formatter possiamo anche mettere la data e l'ora
+(Se non si mette nessun attributo nella funzione getLogger, verrà automaticamente aggiunto root nel file di log)
