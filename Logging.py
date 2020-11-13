@@ -1,11 +1,11 @@
 import logging
-filename = 'Debug.txt'
+filename = 'log.txt'
 
 # create logger
 logger = logging.getLogger('LogExample')
 logger.setLevel(logging.DEBUG)
 
-#create file
+# create file
 file = logging.FileHandler(filename)
 file.setLevel(logging.DEBUG)
 logger.addHandler(file)
@@ -15,7 +15,7 @@ formatter = logging.Formatter()
 file.setFormatter(formatter)
 logger.addHandler(file)
 
-# 'application' code
+# On File
 logger.debug('Debug')
 logger.info('Info')
 logger.warning('Warning')

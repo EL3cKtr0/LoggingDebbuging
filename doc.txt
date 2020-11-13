@@ -4,3 +4,10 @@ Possiamo stampare su console i nostri messaggi oppure se ne
 vogliamo tenere traccia è necessario utilizzare un file di log
 Usando gli attributi di formatter possiamo anche mettere la data e l'ora
 (Se non si mette nessun attributo nella funzione getLogger, verrà automaticamente aggiunto root nel file di log)
+Se cambiamo nome al file in automatico ce ne creerà un altro
+
+Andiamo ad effettuare debugging sui nostri logger
+Appena creiamo il logger, esso è una struttura con varie strutture interne tra cui i filtri, il nome e il manager
+Quando aggiungiamo il file di testo al logger compare la root del file negli handlers
+Compare anche il formatter una volta creato che da informazioni riguardante l'ora la data etc..
+Per quanto riguarda il log su console non c'è molto da debuggare

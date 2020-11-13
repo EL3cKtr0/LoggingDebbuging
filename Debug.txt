@@ -13,3 +13,13 @@ Info
 Warning
 Error
 Critical Error
+Debug
+Info
+Warning
+Error
+Critical Error
+Debug
+Info
+Warning
+Error
+Critical Error
