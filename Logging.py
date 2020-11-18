@@ -1,4 +1,6 @@
 import logging
+
+
 filename = 'log.txt'
 
 # create logger

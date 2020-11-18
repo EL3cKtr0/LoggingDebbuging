@@ -11,3 +11,6 @@ Appena creiamo il logger, esso è una struttura con varie strutture interne tra 
 Quando aggiungiamo il file di testo al logger compare la root del file negli handlers
 Compare anche il formatter una volta creato che da informazioni riguardante l'ora la data etc..
 Per quanto riguarda il log su console non c'è molto da debuggare
+
+Nuova versione del logger, applicato al test del triangolo
+Aggiunto il file di log con ora, path della cartella, tipo di messaggio e messaggio relativo
