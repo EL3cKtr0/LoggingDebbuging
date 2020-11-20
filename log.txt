@@ -1,2 +1,7 @@
-2020-11-18 15:33:35,731 - C:\Users\luigi\Downloads\Desktop\Università\Informatica\3° Anno\Tirocinio\Repo\LoggingDebugging\LoggingDebbuging - DEBUG - All 3 numbers are valid for testing
-2020-11-18 15:33:35,732 - C:\Users\luigi\Downloads\Desktop\Università\Informatica\3° Anno\Tirocinio\Repo\LoggingDebugging\LoggingDebbuging - DEBUG - The 3 Numbers can be 3 sides of a triangle
+2020-11-20 16:08:00,738 - C:\Users\luigi\Downloads\Desktop\Università\Informatica\3° Anno\Tirocinio\Repo\LoggingDebugging\LoggingDebbuging - ERROR - ERROR, third number is bigger than the sum other two
+2020-11-20 16:08:00,738 - C:\Users\luigi\Downloads\Desktop\Università\Informatica\3° Anno\Tirocinio\Repo\LoggingDebugging\LoggingDebbuging - ERROR - ERROR, third number is bigger than the sum other two
+2020-11-20 16:11:37,385 - C:\Users\luigi\Downloads\Desktop\Università\Informatica\3° Anno\Tirocinio\Repo\LoggingDebugging\LoggingDebbuging - ERROR - ERROR, third number is bigger than the sum other two
+2020-11-20 16:11:37,385 - C:\Users\luigi\Downloads\Desktop\Università\Informatica\3° Anno\Tirocinio\Repo\LoggingDebugging\LoggingDebbuging - ERROR - ERROR, third number is bigger than the sum other two
+2020-11-20 16:12:52,355 - C:\Users\luigi\Downloads\Desktop\Università\Informatica\3° Anno\Tirocinio\Repo\LoggingDebugging\LoggingDebbuging - ERROR - ERROR, third number is bigger than the sum other two
+2020-11-20 16:12:52,355 - C:\Users\luigi\Downloads\Desktop\Università\Informatica\3° Anno\Tirocinio\Repo\LoggingDebugging\LoggingDebbuging - ERROR - ERROR, third number is bigger than the sum other two
+2020-11-20 16:12:52,355 - C:\Users\luigi\Downloads\Desktop\Università\Informatica\3° Anno\Tirocinio\Repo\LoggingDebugging\LoggingDebbuging - ERROR - ERROR, third number is bigger than the sum other two
