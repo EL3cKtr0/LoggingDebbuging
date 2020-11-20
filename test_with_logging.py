@@ -19,10 +19,29 @@ file.setFormatter(formatter)
 logger.addHandler(file)
 
 
-
 def istriangle(l1, l2, l3):
+    if isinstance(l1, str):
+        logger.error("ERROR, first number is NOT a number")
+        return False
 
-    if isinstance(l1, str) or isinstance(l2, str) or isinstance(l3, str):
+    if isinstance(l2, str):
+        logger.error("ERROR, second number is NOT a number")
+        return False
+
+    if isinstance(l3, str):
+        logger.error("ERROR, third number is NOT a number")
+        return False
+
+    if l1 <= 0:
+        logger.error("ERROR, first number is less than 0")
+        return False
+
+    if l2 <= 0:
+        logger.error("ERROR, second number is less than 0")
+        return False
+
+    if l3 <= 0:
+        logger.error("ERROR, third number is less than 0")
         return False
 
     if (l1 + l2) <= l3:
@@ -44,3 +63,5 @@ def test_method():
     assert istriangle(0, 0, 0) == False  # Should return False, can't be a Triangle
     assert istriangle('ciao', 4, 7) == False  # Should return False, passing a string
     assert istriangle(-2, 1, 1) == False  # Should return False, one side is negative
+    assert istriangle(2, 1, -1) == False  # Should return False, one side is negative
+    assert istriangle(-5, -5, -5) == False  # Should return False, all 3 numbers are negative
